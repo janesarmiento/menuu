@@ -1,0 +1,92 @@
+/* CSS Document */
+body{margin: 0px;}
+h1{color: #fff;font-family: 'Montserrat', sans-serif;display: inline; padding: 5px;}
+
+/* Baner de cuotas*/
+.aviso {font-family: 'Montserrat', sans-serif;
+   font-size: 14px;
+   text-align: center;
+   align-content: center;
+   background-color: antiquewhite;}
+/*ACA EMPIEZA MENU 1*/
+.menu1 {padding: 15px 0px 15px 0px;
+   background-color: black;
+   display: flex;
+   justify-content: center;}
+/*div de busqueda*/
+.divbusqueda {
+   margin: 0px 10px 0px 10px;
+   width: 65%;}
+/*baner de busqueda*/
+.busqueda{min-width: 90%;
+  min-height: 100%;
+  background-color: #fff;
+  padding: 0 25px 0 45px;
+  border: 1px solid rgba(0, 0, 0, 0);
+  border-radius: 20px;
+  font-size: 16px;}
+.iconos{margin: 0px;
+  display: flex;
+  align-items: flex-end;}
+li{margin: 0px 20px 0px 20px;}
+
+
+/*ACA EMPIEZA MENU2*/
+.menu2{display: flex;justify-content: center;background-color: black;font-size: 15px;padding: 14px;margin: 0px;}
+.menu2 >li> a> {margin: 0px 20px 0px 20px;
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;}
+.menu2 >li:hover{background-color: rgb(69, 69, 69);}
+.menu2 >label> :hover{background-color: rgb(69, 69, 69);}
+
+/*MENU GENERAL*/
+.menu-general{ position: fixed;
+width: 100%;}
+
+
+
+/*Aca empieza menu2
+.menu2 li:hover .menu-vertical{
+    display: block;}
+.menu-vertical li:hover{background-color: rgb(183, 183, 17);}
+.menu-vertical li a{
+display: block;
+color: yellow;
+padding: 15px 15px 15px 20px;
+text-decoration: none;}*/
+
+
+
+/*Menu vertical*/
+.menu-content {position: absolute;
+top: 158px;
+left 0;
+width: 100%;
+}
+.menuvertical{ display: flex;
+transition: 0.5s;
+opacity: 0;
+height: 0;
+overflow: hidden;
+background-color: rgb(0, 0, 0);
+justify-content: center;flex-wrap: wrap;}
+section div h1 {color: #fff;font-family: 'Montserrat', sans-serif;font-size: 17px; font-weight: bold;padding: 0px;display: block;}
+section div p {font-size: 16px;margin: 5px; color: #fff;}
+.categorias{
+    padding: 55px 75px 55px 35px;
+    border: solid 1px ;
+    border-color: rgb(24, 24, 24); 
+line-height: 1.5 }
+.categorias >h1>p {color: #fff;}
+.fotosmenu{display: flex; background-color: black;}
+.fmenu1 {width: 310%;padding: 0px 5px 5px 5px;}
+.fmenu2 {display: flex;
+    flex-direction: column;width: 170%;padding: 0px 5px 5px 5px;}
+.fmenu3 {width: 155%;padding: 0px 5px 5px 5px}
+
+
+#check-menu :checked + label > .menu-content .menuvertical
+ { opacity: 1;
+  height: auto}
+  
